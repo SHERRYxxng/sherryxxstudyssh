@@ -8,9 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring02CGlibAOP" />
         <module name="Spring04JdbcTemplate" />
+        <module name="Spring03AspectJAOP" />
         <module name="Spring" />
         <module name="Spring01JDKProxyAOP" />
-        <module name="Spring03AspectJAOP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,6 +18,8 @@
       <module name="Spring" target="1.8" />
       <module name="Spring01" target="1.8" />
       <module name="spring01" target="1.8" />
+      <module name="SpringAspectJAOP" target="1.8" />
+      <module name="SpringJdbcTemplate" target="1.8" />
       <module name="SpringJDKAOP" target="1.8" />
       <module name="studySpring" target="1.8" />
     </bytecodeTargetLevel>
