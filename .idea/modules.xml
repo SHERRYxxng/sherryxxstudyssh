@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassRoomSpring.iml" filepath="$PROJECT_DIR$/ClassRoomSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SherrySpringMVCHome.iml" filepath="$PROJECT_DIR$/SherrySpringMVCHome.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring.iml" filepath="$PROJECT_DIR$/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringMVC.iml" filepath="$PROJECT_DIR$/SpringMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/sherryxxstudyssh.iml" filepath="$PROJECT_DIR$/sherryxxstudyssh.iml" />
     </modules>
   </component>

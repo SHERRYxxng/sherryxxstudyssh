@@ -89,6 +89,7 @@ public class MyLogging {
 //        System.out.println("[异常通知]==>Calc中"+methodName+"方法(),异常通知执行!异常为"+e);
 //    }
     @Around(value ="myPointCut()")
+    @Order(value = 2)
     public Object aroundMethod(ProceedingJoinPoint pjp){
         String  methodName=pjp.getSignature().getName();
         Object [] args=pjp.getArgs();

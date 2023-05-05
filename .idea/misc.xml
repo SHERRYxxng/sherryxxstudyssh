@@ -6,6 +6,9 @@
     </list>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC01HelloWorld" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -21,6 +24,11 @@
         <option value="$PROJECT_DIR$/Spring/Spring01JDKProxyAOP/pom.xml" />
         <option value="$PROJECT_DIR$/Spring/Spring03AspectJAOP/pom.xml" />
         <option value="$PROJECT_DIR$/Spring/Spring04JdbcTemplate/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/Spring05AffairsManagement/pom.xml" />
+        <option value="$PROJECT_DIR$/ClassRoomSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC01HelloWorld/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring/Spring06NewFeatures/pom.xml" />
       </list>
     </option>
   </component>

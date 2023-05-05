@@ -6,7 +6,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
-import sherry.study.JdbcTemplate.pojo.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,12 +62,12 @@ public class SherryTestJdbcTemplate {
          * @Author SHERRY
          * @Version 1.0
          **/
-        //String sqlOneObject="select id,last_name,gender,email,salary,dept_id from employee
+       // String sqlOneObject="select id,last_name,gender,email,salary,dept_id from employee
         // where " +"id=?";
-        String sqlOneObject="select * from employee where id=?";
-        RowMapper<Employee> rowMapper =new BeanPropertyRowMapper<>(Employee.class);
-        Employee employee=jdbcTemplate.queryForObject(sqlOneObject,rowMapper,1);
-        System.out.println("employee = " + employee);
+//        String sqlOneObject="select * from employee where id=?";
+//        RowMapper<sherry.study.JdbcTemplate.dao.pojo.Employee> rowMapper =new BeanPropertyRowMapper<>(sherry.study.JdbcTemplate.dao.pojo.Employee.class);
+//        sherry.study.JdbcTemplate.dao.pojo.Employee employee=jdbcTemplate.queryForObject(sqlOneObject,rowMapper,1);
+//        System.out.println("employee = " + employee);
 
         //查询多个对象
 //        String sqlOneObject="select id,last_name,gender,email,salary,dept_id from employee";

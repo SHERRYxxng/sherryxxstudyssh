@@ -10,7 +10,6 @@ import sherry.Spring.beforAOP.Calc;
  **/
 public class SherryTestCglib {
     public static void main(String[] args) {
-        Enhancer en=new Enhancer();
-        //en.setSuperclass();
+
     }
 }

@@ -8,19 +8,25 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Spring02CGlibAOP" />
         <module name="Spring04JdbcTemplate" />
+        <module name="SherrySpringMVCHome" />
         <module name="Spring03AspectJAOP" />
+        <module name="SpringMVC01HelloWorld" />
         <module name="Spring" />
+        <module name="Spring05AffairsManagement" />
+        <module name="Spring06NewFeatures" />
         <module name="Spring01JDKProxyAOP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mybatis" target="1.8" />
+      <module name="SherrySpringMVCHome" target="1.8" />
       <module name="Spring" target="1.8" />
-      <module name="Spring01" target="1.8" />
       <module name="spring01" target="1.8" />
+      <module name="Spring01" target="1.8" />
       <module name="SpringAspectJAOP" target="1.8" />
       <module name="SpringJdbcTemplate" target="1.8" />
       <module name="SpringJDKAOP" target="1.8" />
+      <module name="SpringMVC" target="1.8" />
       <module name="studySpring" target="1.8" />
     </bytecodeTargetLevel>
   </component>

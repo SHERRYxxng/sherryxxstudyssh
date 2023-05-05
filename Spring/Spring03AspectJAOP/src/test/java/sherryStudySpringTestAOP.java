@@ -17,6 +17,6 @@ public class sherryStudySpringTestAOP {
         Calc calc = context.getBean("calc", Calc.class);
         calc.add(1,2);
         System.out.println("====================================");
-        calc.div(9,1);
+//        calc.div(9,1);
     }
 }
