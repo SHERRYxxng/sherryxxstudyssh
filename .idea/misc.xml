@@ -8,6 +8,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC01HelloWorld" />
+    <file type="web" url="file://$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC02HelloWorld" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -29,6 +30,7 @@
         <option value="$PROJECT_DIR$/SpringMVC/pom.xml" />
         <option value="$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC01HelloWorld/pom.xml" />
         <option value="$PROJECT_DIR$/Spring/Spring06NewFeatures/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringMVC/SherrySpringMVCHome/SpringMVC02HelloWorld/pom.xml" />
       </list>
     </option>
   </component>

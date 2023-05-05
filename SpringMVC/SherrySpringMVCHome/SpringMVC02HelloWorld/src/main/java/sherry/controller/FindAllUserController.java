@@ -25,13 +25,7 @@ public class FindAllUserController extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         /*方案一:与应用域进行绑定->创建BeanFactory对象并保存到应用域ServletContext,
         之后请求复用之前保存应用域ServletContext中的对象问题第一次请求耗时较长*/
-//        BeanFactory beanFactory = (BeanFactory)getServletContext().getAttribute("applicationContext");
         BeanFactory beanFactory=(BeanFactory) getServletContext().getAttribute("applicationContext");
-        if(null==beanFactory) {
-            System.out.println("第一次请求");
-            beanFactory = new ClassPathXmlApplicationContext("springmvc.xml");
-            getServletContext().setAttribute("applicationContext", beanFactory);
-        }
         /*方案二:与服务器启动进行绑定->当服务器启动时(ServletContextListener), 创建BeanFactory对象并将其保存到应用域(ServletContext) ;
         第一次请求时,复用之前保存的BeanFactory对象.第二次请求, ...*/
 

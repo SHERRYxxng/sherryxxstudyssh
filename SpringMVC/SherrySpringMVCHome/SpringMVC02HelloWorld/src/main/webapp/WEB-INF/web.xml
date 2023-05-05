@@ -12,7 +12,11 @@
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
-
+	<!---->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:springmvc.xml</param-value>
+	</context-param>
 	<listener>
 		<!--在这里配置上下文监听器-->
 		<listener-class>sherry.mvc.MyContextLoaderListener</listener-class>

@@ -8,7 +8,9 @@ import javax.servlet.ServletContextListener;
 
 /**
  * @ClassName:MyContextLoaderListener
- * @Description:
+ * @Description:解决方案二中的两个问题
+ * <br>1.字符串硬编码问题代码BeanFactory beanFactory = new ClassPathXmlApplicationContext("springmvc.xml");
+ * 中的"springmvc.xml"写死了
  * @Author: SHERRY
  * @Version: 1.0
  * @Date: 2023/5/5 16:14

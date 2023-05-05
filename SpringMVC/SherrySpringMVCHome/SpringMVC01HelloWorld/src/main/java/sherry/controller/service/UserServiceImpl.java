@@ -1,4 +1,4 @@
-package sherry.service;
+package sherry.controller.service;
 
 import org.springframework.stereotype.Service;
 
