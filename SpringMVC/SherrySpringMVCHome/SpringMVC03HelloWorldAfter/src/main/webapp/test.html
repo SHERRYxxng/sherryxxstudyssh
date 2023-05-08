@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<a href="/testRest/1">Test REST_GET</a><br>
+<h1>发生POST请求</h1>
+<form action="/testRest" method="post">
+    <input type="submit" value="Test REST_POST">
+</form>
+<h1>发生DELETE请求</h1>
+<form action="/testRest/1" method="post">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Test REST_DELETE">
+</form>
+<h1>发生PUT请求</h1>
+<form action="/testRest" method="post">
+    <input type="hidden" name="_method" value="put">
+    <input type="submit" value="Test REST_PUT">
+</form>
+<form action="/testpojo" method="post">
+    <input type="text" name="id" value="10"><br/>
+    <input type="text" name="lastName" value="鼓掌刚"><br/>
+    <input type="text" name="email" value="1234567@atugiu.com"><br/>
+    <input type="text" name="department.id" value="20"><br/>
+    <input type="text" name="department.departmentName" value="ACCOUNTING"><br/>
+    <input type="checkbox" name="hobbies" value="1"> 乒乓
+    <input type="checkbox" name="hobbies" value="2"> 羽毛球
+    <input type="checkbox" name="hobbies" value="3"> 台球
+    <input type="checkbox" name="hobbies" value="4"> 短道速滑
+
+    <br/>
+    <input type="checkbox" name="hobbies2" value="1"> 乒乓
+    <input type="checkbox" name="hobbies2" value="2"> 羽毛球
+    <input type="checkbox" name="hobbies2" value="3"> 台球
+    <input type="checkbox" name="hobbies2" value="4"> 短道速滑
+
+    <input type="submit" value="提交参数">
+</form>
+</body>
+</html>

@@ -2,7 +2,7 @@ package sherry.controller;
 
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import sherry.controller.service.UserService;
+import sherry.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,7 +13,9 @@ import java.io.IOException;
 
 /**
  * @ClassName:FindAllUserController
- * @Description:
+ * @Description: 第一版 方案一
+ * <br>当多次请求`http://localhost:8080/day09/user/findAll`, 在`FindAllUserController类`的`doGet方法`中,
+ * <br>会多次创建`BeanFactory对象`
  * @Author: SHERRY
  * @Version: 1.0
  * @Date: 2023/5/5 14:16

@@ -7,19 +7,26 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring02CGlibAOP" />
+        <module name="CLassSpringMVC00" />
         <module name="Spring04JdbcTemplate" />
         <module name="SherrySpringMVCHome" />
-        <module name="SpringMVC02HelloWorld" />
+        <module name="SpringMVC03HelloWorldAfter" />
+        <module name="MyProject" />
         <module name="Spring03AspectJAOP" />
-        <module name="SpringMVC01HelloWorld" />
         <module name="Spring" />
         <module name="Spring05AffairsManagement" />
+        <module name="SpringMVC02HelloWorld" />
+        <module name="SpringMVC01HelloWorld" />
         <module name="Spring06NewFeatures" />
         <module name="Spring01JDKProxyAOP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ClassSpringMVC01" target="1.8" />
+      <module name="ClassSpringMVC01HelloWorld" target="1.8" />
       <module name="mybatis" target="1.8" />
+      <module name="MyProject" target="1.8" />
+      <module name="SherrySpringMVCCLASS" target="1.8" />
       <module name="SherrySpringMVCHome" target="1.8" />
       <module name="Spring" target="1.8" />
       <module name="spring01" target="1.8" />

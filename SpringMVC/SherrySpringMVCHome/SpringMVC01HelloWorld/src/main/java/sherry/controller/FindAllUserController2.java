@@ -1,7 +1,7 @@
 package sherry.controller;
 
 import org.springframework.beans.factory.BeanFactory;
-import sherry.controller.service.UserService;
+import sherry.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +11,8 @@ import java.io.IOException;
 
 /**
  * @ClassName:FindAllUserController2
- * @Description:
+ * @Description:   第二版 方案一 第一次请求时, 创建BeanFactory对象并将其保存到应用域(ServletContext), 第二次请求时, 复用之前保存的BeanFactory对象.
+ * <br>解决方案当服务器启动时(ServletContextListener), 创建BeanFactory对象并将其保存到应用域(ServletContext) ; 第一次请求时,复用之前保存的BeanFactory对象.第二次请求, ...
  * @Author: SHERRY
  * @Version: 1.0
  * @email: SHERRYth743779@gmail.com
